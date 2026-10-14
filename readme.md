@@ -8,7 +8,7 @@ Run: docker pull netaru3/tornet
 docker run -d --name tornetnetaru3/tornet:latest 
 docker exec -it tornet5 /bin/bash
 
-If you want to use tornet without Docker, download it from npm: https://www.npmjs.com/package/tornet?activeTab=readme
+If you want to use tornet without Docker, download tor,haproxy and clone this repository
 
 3: Once you’ve started Tor, just run the “tornet” command. Use the “- -url“ to specify the URL, ”-n“ to specify the number of requests to make before hitting the rate limit, ”--wordlist“ to specify the wordlist you want to use, ”--body“ to specify the response body (as a string), ”--error“ to specify the error message, and ”--header" to specify the response header.
 
